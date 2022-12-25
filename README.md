@@ -7,9 +7,13 @@ In this paper, inspired by the success of the ED-KoGTL , we propose the Dynamic 
 
 
 
-![grab-landing-page](https://github.com/Yusra-alkendi/EventDenoising_GNNTransformer/blob/f1d9cdab93facdf39861fe72c409b1bb5aa25290/Dataset_Goodlight_750lux.gif)
+![grab-landing-page](https://github.com/Yusra-alkendi/EMS-GTNN/blob/main/EMS_DOMEL_SEQ01.gif)
 
-![grab-landing-page](https://github.com/Yusra-alkendi/EventDenoising_GNNTransformer/blob/c2d36cf409546c44dc055122cb114d70ed4d5a02/Dataset_Lowlight_5lux.gif)
+![grab-landing-page](https://github.com/Yusra-alkendi/EMS-GTNN/blob/main/EMS_DOMEL_SEQ02.gif)
+
+![grab-landing-page](https://github.com/Yusra-alkendi/EMS-GTNN/blob/main/EMS_DOMEL_SEQ03.gif)
+
+
 
 ## Dynamic Object Mask-aware Event Labeling (DOMEL) Framework for Event-based Motion Segmentation (EMS)
 
