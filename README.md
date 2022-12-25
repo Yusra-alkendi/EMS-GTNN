@@ -53,7 +53,7 @@ After loading the file in MATLAB. You will find
 
 
 
-For additional information please see the paper and <https://youtu.be/x0FXZLEenJ8>.
+For additional information please see the paper and <You_tube_link_video>.
 
 
 # Additional Notes
