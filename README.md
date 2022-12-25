@@ -20,7 +20,7 @@ Three measurements were recorded; (1) DAVIS346C event streams, (2) DVXplorer eve
 
 
 
-## Event-based Motion Segmentation (EMS) dataset using Dynamic Object Mask-aware Event Labeling (DOMEL) approach (EMS-DOMEL) - Files
+## Event-based Motion Segmentation (EMS) dataset using Dynamic Object Mask-aware Event Labeling (DOMEL) approach - EMS-DOMEL Files
 
 Row experimental data:
 
