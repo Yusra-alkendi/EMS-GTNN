@@ -30,25 +30,25 @@ The labelled dataset for each  scenarios:
 
   **(1)** **"DOMEL_Seq01":** contains labeled event dataset for motion segmentation, "DOMEL_Seq01.mat". 
 After loading the file in MATLAB. You will find
-  - "DOMEL_Seq01.x" and "DOMEL_Seq01.y" indicate the pixel coordinates at which the event occurred. 
-  - "DOMEL_Seq01.t" indicates the event’s timestamp
-  - "DOMEL_Seq01.p" indicates the event’s polarity
-  - "DOMEL_Seq01x.label" indicate the event’s Label as 1 (Foreground event) or 0 (Background event).
+  - "DOMEL_Seq01.X" and "DOMEL_Seq01.Y" indicate the pixel coordinates at which the event occurred. 
+  - "DOMEL_Seq01.Time" indicates the event’s timestamp
+  - "DOMEL_Seq01.Polarity" indicates the event’s polarity
+  - "DOMEL_Seq01x.Label" indicate the event’s Label as 1 (Foreground event) or 0 (Background event).
 
 
   **(2)** **"DOMEL_Seq02":** contains labeled event dataset for motion segmentation, "DOMEL_Seq02.mat". 
 After loading the file in MATLAB. You will find
-  - "DOMEL_Seq02.x" and "DOMEL_Seq02.y" indicate the pixel coordinates at which the event occurred. 
-  - "DOMEL_Seq02.t" indicates the event’s timestamp
-  - "DOMEL_Seq02.p" indicates the event’s polarity
-  - "DOMEL_Seq02.label" indicate the event’s Label as 1 (Foreground event) or 0 (Background event).
+  - "DOMEL_Seq02.X" and "DOMEL_Seq02.Y" indicate the pixel coordinates at which the event occurred. 
+  - "DOMEL_Seq02.Time" indicates the event’s timestamp
+  - "DOMEL_Seq02.Polarity" indicates the event’s polarity
+  - "DOMEL_Seq02.Label" indicate the event’s Label as 1 (Foreground event) or 0 (Background event).
 
   **(3)** **"DOMEL_Seq03":** contains labeled event dataset for motion segmentation, "DOMEL_Seq03.mat". 
 After loading the file in MATLAB. You will find
-  - "DOMEL_Seq03.x" and "DOMEL_Seq03.y" indicate the pixel coordinates at which the event occurred. 
-  - "DOMEL_Seq03.t" indicates the event’s timestamp
-  - "DOMEL_Seq03.p" indicates the event’s polarity
-  - "DOMEL_Seq03.label" indicate the event’s Label as 1 (Foreground event) or 0 (Background event).
+  - "DOMEL_Seq03.X" and "DOMEL_Seq03.Y" indicate the pixel coordinates at which the event occurred. 
+  - "DOMEL_Seq03.Time" indicates the event’s timestamp
+  - "DOMEL_Seq03.Polarity" indicates the event’s polarity
+  - "DOMEL_Seq03.Label" indicate the event’s Label as 1 (Foreground event) or 0 (Background event).
 
 
 
