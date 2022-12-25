@@ -51,6 +51,10 @@ After loading the file in MATLAB. You will find
   - "DOMEL_Seq03.Label" indicate the event’s Label as 1 (Foreground event) or 0 (Background event).
 
 
+.
+.
+.
+.
 
 
 For additional information please see the paper and <You_tube_link_video>.
