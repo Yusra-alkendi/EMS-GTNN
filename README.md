@@ -4,7 +4,7 @@ Event-based Motion Segmentation with Graph Transformer Neural Network
 In this paper, inspired by the success of the ED-KoGTL , we propose the Dynamic Object Mask-aware Event Labeling (DOMEL), which is an offline approach for annotating event data for motion segmentation applications. Every event in the recorded stream is assigned a label; foreground event or background event. The labeling process requires as input the corresponding gray-scale frame; which can be captured using a frame-based sensor, working simultaneously alongside the event camera. 
 DOMEL approach includes four main stages, event-image synchronization, raw event-edge fitting, spatially shifted event-mask fitting, and event labeling, as illustrated in the following:
 
-![MAINCOMPONENTSOFVISUAL-LOCALIZATION](https://github.com/Yusra-alkendi/EMS-GTNN/blob/main/DomelFramework.pdf)
+![MAINCOMPONENTSOFVISUAL-LOCALIZATION](https://github.com/Yusra-alkendi/EMS-GTNN/blob/main/DomelFramework.png)
 
 ![MAINCOMPONENTSOFVISUAL-LOCALIZATION](https://github.com/Yusra-alkendi/EventDenoising_GNNTransformer/blob/2255aa7e3d25f7a0d91183c069412aa3ea8aafcf/KOGTL3.jpg)
 
