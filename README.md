@@ -26,23 +26,31 @@ Three measurements were recorded; (1) DAVIS346C event streams, (2) DVXplorer eve
 
 ## Event-based Motion Segmentation (EMS) dataset using Dynamic Object Mask-aware Event Labeling (DOMEL) approach - EMS-DOMEL Files
 
-Row experimental data:
+The labelled dataset for each  scenarios:
 
-  **(1)** **"RawDVS_ExperimentalData":** raw sensor data is in ".mat" format. 
-
-The labelled dataset for each experimental scenarios:
-
-  **(2)** **"Dataset_Goodlight_750lux":** contains labeled event dataset, "Dataset_Goodlight_750lux.mat", of ∼750lux (Good light). 
+  **(1)** **"DOMEL_Seq01":** contains labeled event dataset for motion segmentation, "DOMEL_Seq01.mat". 
 After loading the file in MATLAB. You will find
-  - "Dataset_Goodlight_750lux.x" and "Dataset_Goodlight_750lux.y" indicate the pixel coordinates at which the event occurred. 
-  - "Dataset_Goodlight_750lux.t" indicates the event’s timestamp
-  - "Dataset_Goodlight_750lux.label" indicate the event’s Label as 1 (real activity event) or 0 (noise).
+  - "DOMEL_Seq01.x" and "DOMEL_Seq01.y" indicate the pixel coordinates at which the event occurred. 
+  - "DOMEL_Seq01.t" indicates the event’s timestamp
+  - "DOMEL_Seq01.p" indicates the event’s polarity
+  - "DOMEL_Seq01x.label" indicate the event’s Label as 1 (Foreground event) or 0 (Background event).
 
-  **(3)** **"Dataset_Lowlight_5lux":** contains labeled event dataset of ∼5lux (Low light). 
+
+  **(2)** **"DOMEL_Seq02":** contains labeled event dataset for motion segmentation, "DOMEL_Seq02.mat". 
 After loading the file in MATLAB. You will find
-  - "Dataset_Lowlight_5lux.x" and "Dataset_Lowlight_5lux.y" indicate the pixel coordinates at which the event occurred. 
-  - "Dataset_Lowlight_5lux.t" indicates the event’s timestamp
-  - "Dataset_Lowlight_5lux.label" indicate the event’s Label as 1 (real activity event) or 0 (noise).
+  - "DOMEL_Seq02.x" and "DOMEL_Seq02.y" indicate the pixel coordinates at which the event occurred. 
+  - "DOMEL_Seq02.t" indicates the event’s timestamp
+  - "DOMEL_Seq02.p" indicates the event’s polarity
+  - "DOMEL_Seq02.label" indicate the event’s Label as 1 (Foreground event) or 0 (Background event).
+
+  **(3)** **"DOMEL_Seq03":** contains labeled event dataset for motion segmentation, "DOMEL_Seq03.mat". 
+After loading the file in MATLAB. You will find
+  - "DOMEL_Seq03.x" and "DOMEL_Seq03.y" indicate the pixel coordinates at which the event occurred. 
+  - "DOMEL_Seq03.t" indicates the event’s timestamp
+  - "DOMEL_Seq03.p" indicates the event’s polarity
+  - "DOMEL_Seq03.label" indicate the event’s Label as 1 (Foreground event) or 0 (Background event).
+
+
 
 
 For additional information please see the paper and <https://youtu.be/x0FXZLEenJ8>.
