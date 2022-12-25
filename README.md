@@ -1,25 +1,24 @@
 # Event-based Motion Segmentation with Graph Transformer Neural Network
 
 ## EMS-GTNN 
-In this paper, inspired by the success of the ED-KoGTL , we propose the Dynamic Object Mask-aware Event Labeling (DOMEL), which is an offline approach for annotating event data for motion segmentation applications. Every event in the recorded stream is assigned a label; foreground event or background event. The labeling process requires as input the corresponding gray-scale frame; which can be captured using a frame-based sensor, working simultaneously alongside the event camera. 
-DOMEL approach includes four main stages, event-image synchronization, raw event-edge fitting, spatially shifted event-mask fitting, and event labeling, as illustrated in the following:
+In this paper, inspired by the success of the ED-KoGTL , we propose the Dynamic Object Mask-aware Event Labeling (DOMEL), which is an offline approach for annotating event data for motion segmentation applications. Every event in the recorded stream is assigned a label; foreground event or background event. The labeling process requires as input the corresponding gray-scale frame; which can be captured using a frame-based sensor, working simultaneously alongside the event camera. Hence, DOMEL allows labeling event streams recorded using event cameras that do not generate gray scale images such as DVXplorer. The frame-based sensor and the event camera need to visualize the same scene, with the same field of view. DOMEL approach includes four main stages, event-image synchronization, raw event-edge fitting, spatially shifted event-mask fitting, and event labeling, as illustrated in the following:
 
 ![MAINCOMPONENTSOFVISUAL-LOCALIZATION](https://github.com/Yusra-alkendi/EMS-GTNN/blob/main/DomelFramework.png)
 
 
 
-
-
 ![grab-landing-page](https://github.com/Yusra-alkendi/EventDenoising_GNNTransformer/blob/f1d9cdab93facdf39861fe72c409b1bb5aa25290/Dataset_Goodlight_750lux.gif)
 
-
 ![grab-landing-page](https://github.com/Yusra-alkendi/EventDenoising_GNNTransformer/blob/c2d36cf409546c44dc055122cb114d70ed4d5a02/Dataset_Lowlight_5lux.gif)
-## Known-object Ground-Truth Labeling (KoGTL) Framework
 
-The main idea behind the KoGTL is to use a multi-trial experimental approach to record event streams and then perform labeling. More specifically, a dynamic active pixel vision sensor (DAVIS346C) is mounted on a Universal Robot UR10 6-DOF arm, in a front forward position and repeatedly moved along a certain (identical) trajectory under various illumination conditions.
+## Dynamic Object Mask-aware Event Labeling (DOMEL) Framework for Event-based Motion Segmentation (EMS)
 
-The events are recorded along with two other measurements: (1) the camera pose at which the data was recorded, which we obtain through kinematics of the robot arm and (2) the intensity measurements from the scene obtained using the augmented active pixel sensor (APS images).
-Several experimental scenarios are adopted where data is acquired at repeated transnational motion of the robot along square trajectory under different lighting conditions such as ∼750lux (Good light) and ∼5lux (low light). Streams of events with corresponding APS images and robot poses were acquired for about 5s per experimental scenario. 
+DOMEL is a novel event labelling methodology developed to classify events, acquired when the camera is in motion, into two main classes: foreground or background events. The proposed DOMEL works irrespective of the sensor resolution, and hence any event camera may be used to record the event streams. A frame-based sensor is needed to capture intensity images corresponding to the recorded events, which will assist event labeling.
+Two dynamic active pixel vision sensors; DAVIS346C and DVXplorer, are mounted side-by-side on a tripod, to capture a dynamic scene. DAVIS346C and DVXplorer have a spatial resolution of 346$\times$260 and 640$\times$480, a bandwidth of 12 and 165 MEvent/s, and a dynamic range of 120 and 90 dB, respectively. The cameras are moved along various trajectories; i.e. a sequence of translations and rotations, in environments with various scene geometries where objects of various types and sizes are randomly moving. 
+
+Three measurements were recorded; (1) DAVIS346C event streams, (2) DVXplorer event streams, and (3) Gray scale images which capture intensity measurements of the dynamic scene. The gray scale images are obtained from the frame output of the DAVIS346C sensor and are denoted as active pixel sensor (APS) images hereafter. It is worth noting that in absence of the frame output of the event camera, it is possible to use a standard camera to capture the same scene alongside the event camera
+
+
 
 ## Event Denoising Known-object Ground-Truth Labeling (ED-KoGTL) dataset - Files
 
