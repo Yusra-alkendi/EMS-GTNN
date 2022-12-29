@@ -57,7 +57,7 @@ After loading the file in MATLAB. You will find
 .
 
 
-For additional information please see the paper and <https://www.youtube.com/watch?v=ZB_YI50BHxE>.
+For additional information please see the paper and <https://youtu.be/rVvbKdXh6oE>.
 
 
 # Additional Notes
